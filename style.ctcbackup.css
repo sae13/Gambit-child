@@ -1,0 +1,99 @@
+/*
+Theme Name: Gambit-child
+Theme URI: https://themezee.com/themes/gambit/
+Author: ThemeZee
+Author URI: https://themezee.com
+Template:     gambit
+Description: Gambit is a complex and highly flexible WordPress theme perfectly suited for any news, magazine or blog website. It features several different layout options, two sidebars and a stunning featured post slider. The easy to use Magazine Homepage template allows you to create a powerful online magazine in just a few minutes.
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gambit
+Tags: three-columns, custom-background, custom-header, custom-menu, editor-style, rtl-language-support, grid-layout, blog, entertainment, news, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, left-sidebar, right-sidebar
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Gambit is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+      @font-face {
+        font-family: Parastoo;
+        src: url('https://cdn.rawgit.com/rastikerdar/parastoo-font/v1.0.0-alpha3/dist/Parastoo.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Vazir;
+        src: url('https://cdn.rawgit.com/rastikerdar/vazir-font/v8.2.1/dist/Vazir.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Samim;
+        src: url('https://cdn.rawgit.com/rastikerdar/samim-font/v1.0.2/dist/Samim.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Shabnam;
+        src: url('https://cdn.rawgit.com/rastikerdar/shabnam-font/v1.0.2/dist/Shabnam.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Tanha;
+        src: url('https://cdn.rawgit.com/rastikerdar/tanha-font/v0.4.1/dist/Tanha.woff') format('woff');
+      }    
+      
+      @font-face {
+        font-family: Gandom;
+        src: url('https://cdn.rawgit.com/rastikerdar/gandom-font/v0.5.1/dist/Gandom.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Sahel;
+        src: url('https://cdn.rawgit.com/rastikerdar/sahel-font/v1.0.0-alpha9/dist/Sahel.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Iranian Sans;
+        src: url('IranianSans.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Mitra;
+        src: url('Mitra.woff') format('woff');
+      }    
+                  
+      @font-face {
+        font-family: Droid Naskh;
+        src: url('DroidNaskh.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Roya;
+        src: url('Roya.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Nazanin;
+        src: url('Nazanin.woff') format('woff');
+      }    
+            
+      @font-face {
+        font-family: Yekan;
+        src: url('Yekan.woff') format('woff');
+      } 
+.entry-title {
+font-family: Vazir;
+}
+.site-title {
+font-family: Tanha;
+}
+.entry-content {
+    //font-size: 16px;
+    //font-size: 1rem;
+    font-family: Vazir;
+}
+span.meta-author , .meta-author {
+display:none;
+}
